@@ -36,7 +36,7 @@
       <div class="flex gap-4">
         <div class="group relative">
           <NuxtLink
-            to="/signup"
+            to="/"
             class="relative text-sm z-40 px-4 text-black transition-colors hover:text-purple-600 py-2"
           >
             Udemy Business
@@ -50,7 +50,7 @@
               anywhere.
             </p>
             <NuxtLink
-              to="/teach"
+              to="/"
               class="bg-slate-900 text-white text-xs font-semibold py-4 px-3 w-full text-center hover:bg-slate-950"
             >
               Get Started
@@ -59,7 +59,7 @@
         </div>
         <div class="group relative">
           <NuxtLink
-            to="/signup"
+            to="/"
             class="relative text-sm px-4 text-black transition-colors hover:text-purple-600 py-2"
           >
             Teach on Udemy
@@ -72,7 +72,7 @@
               Become an instructor and share your knowledge.
             </p>
             <NuxtLink
-              to="/teach"
+              to="/"
               class="bg-slate-900 text-white text-xs font-semibold py-4 px-3 w-full text-center hover:bg-slate-950"
             >
               Get Started
@@ -86,25 +86,25 @@
         <!-- Login/Signup Links -->
 
         <NuxtLink
-          to="/login"
+          to="/"
           class="relative text-sm font-bold hover:text-purple-500 transition-colors"
         >
           <Icon icon="mdi:cart-outline" class="w-6 h-6"
         /></NuxtLink>
         <NuxtLink
-          to="/login"
+          to="/"
           class="relative text-sm font-bold px-4 hover:bg-gray-100 transition-colors border border-gray-600 px py-2"
           >Login</NuxtLink
         >
         <NuxtLink
-          to="/signup"
+          to="/"
           class="relative text-sm font-bold px-4 bg-slate-800 text-white transition-colors border border-gray-600 px py-2"
           >Sign Up</NuxtLink
         >
 
         <!-- Cart Icon -->
         <NuxtLink
-          to="/cart"
+          to="/"
           class="relative text-sm font-bold px-4 hover:bg-gray-100 transition-colors border border-gray-600 px py-3"
         >
           <Icon icon="mdi:web" />
